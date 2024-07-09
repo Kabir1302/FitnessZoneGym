@@ -269,7 +269,8 @@ header p {
 .pricing .wrapper .card {
   flex: 1;
   position: relative;
-  height: 700px;
+  height: 400px;
+  overflow:hidden;
   box-shadow: 1px 3px 12px 2px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 1px 3px 12px 2px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 1px 3px 12px 2px rgba(0, 0, 0, 0.75);
@@ -290,81 +291,37 @@ header p {
   padding: 30px;
 }
 .pricing .wrapper .card .title h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: white;
   position: relative;
   z-index: 5;
 }
 .pricing .wrapper .card .title h3 {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   position: relative;
   z-index: 5;
 }
-.pricing .wrapper .card .title p {
-  font-size: 22px;
-  position: relative;
-  z-index: 5;
-  margin-top: 5px;
-  color:rgb(252, 32, 32);
-}
-/* .pricing .wrapper .card .title::before {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.6);
-}
-.pricing .wrapper .card .title::after {
-  content: "";
-  position: absolute;
-  height: 20px;
-  width: 100%;
-  bottom: -11px;
-  background: whitesmoke;
-  transform: skew(0, -2deg);
-  left: 0;
-} */
-.pricing .wrapper .card .description {
-  /* background: whitesmoke; */
-  position: relative;
-  color:white;
-  z-index: 1;
-  flex: 3;
-  height: 450px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0 30px;
-  gap: 20px;
-}
-.pricing .wrapper .card .description p {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-  font-size: 15px;
-}
-.pricing .wrapper .card .description p svg {
-  color: #0095ff;
-}
-.pricing .wrapper .card .description a {
+
+
+.pricing .wrapper .card  a {
   
   
   color: black;;
   font-weight: 500;
   background:lightblue;
-  border:2px solid white;
-  padding: 15px 30px;
-  border: none;
+  
+  padding: 10px 10px;
+  margin:10px;
+ 
   text-decoration: none;
   width: fit-content;
   transition: 0.3s;
 }
-.pricing .wrapper .card .description a:hover {
+.pricing .wrapper .card  a:hover {
   transition: 0.3s;
-  background: #3c1ff8;
-  border-radius:13px;
+  background: lightblue;
+  border:4px solid black;
+  font-weight:700;
 }
 .pricing .wrapper .card:nth-child(2):before {
   content: "";
@@ -472,7 +429,7 @@ header p {
   padding-right: 7rem;
 }
 .contact form {
-  background: whitesmoke;
+  background: lightblue;
   width: 650px;
   padding: 40px;
   display: flex;

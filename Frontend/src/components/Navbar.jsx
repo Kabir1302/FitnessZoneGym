@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <header>
-        <p>PowerZone Gym</p>
+        <p>Fitness Zone Gym</p>
     </header>
   )
 }

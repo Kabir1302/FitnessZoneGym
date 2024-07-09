@@ -4,7 +4,7 @@ const WorkoutSessions = () => {
   return (
     <section className='workout_session'>
       <div className="wrapper">
-        <h1>JOIN POWERZONE GYM TODAY</h1>
+        <h1>JOIN FITNESS ZONE GYM TODAY</h1>
         <p>Take Care of your body. It's only place you have to live.</p>
         <img src="/img12.png" alt="" />
       </div>

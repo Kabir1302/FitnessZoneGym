@@ -20,8 +20,8 @@ const App = () => {
       <WorkoutSessions />
       <Gallery />
       <Pricing />
-      <Contact />
       <BMICalculator />
+      <Contact />
       <Footer />
       <ToastContainer theme='dark' position='top-center' />
     </Router>
