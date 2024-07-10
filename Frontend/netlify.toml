@@ -1,6 +1,6 @@
 [build]
   command = "vite build"  # Adjust to match your frontend build command
-  publish = "Frontend/build"  # Adjust to match your frontend build output directory
+  publish = "Frontend/Frontend/build"  # Adjust to match your frontend build output directory
 
 [[headers]]
   for = "/*.js"
