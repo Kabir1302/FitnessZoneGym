@@ -1,15 +1,23 @@
 import React from 'react'
+import img1 from "/img16.gif";
+import img2 from "/img11.jpg";
+import img3 from "/img1.jpg";
+import img4 from "/img13.png";
+import img5 from "/img15.gif";
+import img6 from "/img8.jpg";
+import img7 from "/img5.jpg";
+import img8 from "/image14.jpeg"
 
 const Gallery = () => {
   const gallery = [
-    "/img16.gif",
-    "/img11.jpg",
-    "/img1.jpg",
-    "/img13.png",
-    "/img15.gif",
-    "/img8.jpg",
-    "/img5.jpg",
-    "/image14.jpeg"
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    img7,
+    img8
   ]
   return (
     <section className='gallery'>

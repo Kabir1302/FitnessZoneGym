@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import image from "../../public/img12.png";
 
 const WorkoutSessions = () => {
   return (
@@ -6,7 +7,7 @@ const WorkoutSessions = () => {
       <div className="wrapper">
         <h1>JOIN FITNESS ZONE GYM TODAY</h1>
         <p>Take Care of your body. It's only place you have to live.</p>
-        <img src="/img12.png" alt="" />
+        <img src={image} alt="" />
       </div>
       <div className="wrapper">
         {/* <h1>Join Power Zone</h1>

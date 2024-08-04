@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { ClipLoader } from "react-spinners"
 import axios from "axios";
-import {toast} from "react-toastify";
+import { toast } from "react-toastify";
 
 const Conatct = () => {
 
@@ -12,9 +12,15 @@ const Conatct = () => {
 
   const sendMail = async (e) => {
     e.preventDefault();
+
+    if (!name || !email || !message) {
+      toast.error("All fields are required.");
+      return;
+    }
+
     setLoading(true);
     try {
-      const {data} = await axios.post(
+      const { data } = await axios.post(
         "http://localhost:4000/send/mail",
         {
           name,
@@ -23,7 +29,7 @@ const Conatct = () => {
         },
         {
           withCredentials: true,
-          headers: {"Content-Type" : "application/json"},
+          headers: { "Content-Type": "application/json" },
         }
       );
       setName("");

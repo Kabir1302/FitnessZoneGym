@@ -1,21 +1,24 @@
 import React from 'react'
 import { Check } from 'lucide-react'
 import { Link } from 'react-router-dom'
+import img1 from '/bg.jpg'
+import img2 from '/img10.jpg'
+import img3 from '/pricing.jpg'
 
 const Pricing = () => {
   const pricing = [
     {
-      imgUrl: "/bg.jpg",
+      imgUrl: img1,
       title: "QUARTERLY",
       price: 4000
     },
     {
-      imgUrl: "/img10.jpg",
+      imgUrl: img2,
       title: "HALF_YEARLY",
       price: 7800
     },
     {
-      imgUrl: "/pricing.jpg",
+      imgUrl: img3,
       title: "YEARLY",
       price: 15000
     },

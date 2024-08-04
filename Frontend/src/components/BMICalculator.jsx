@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { toast } from 'react-toastify';
+import bmiimg from '../../public/bmi.jpg'
 
 const BMICalculator = () => {
   const [height, setHeight] = useState("");
@@ -59,7 +60,7 @@ const BMICalculator = () => {
           </form>
         </div>
         <div className="wrapper">
-          <img src="/bmi.jpg" alt="image" />
+          <img src={bmiimg} alt="image" />
         </div>
       </div>
     </section>
