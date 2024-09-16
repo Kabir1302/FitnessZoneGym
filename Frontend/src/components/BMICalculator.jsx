@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { toast } from 'react-toastify';
-import bmiimg from '../../public/bmiimg'
+import bmiimg from '../../public/bmi.jpg'
 
 const BMICalculator = () => {
   const [height, setHeight] = useState("");
